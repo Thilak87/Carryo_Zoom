@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows binaries & local tunnel tools
+cloudflared.exe
+*.exe
+
+# Local SQLite databases (created automatically on cloud first run)
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.log

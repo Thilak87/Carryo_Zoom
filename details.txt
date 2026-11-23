@@ -1,0 +1,15 @@
+
+Antigravity
+
+
+It is a live server (daemon process): It is designed to keep running continuously in the background so that your chat, real-time WebSockets, and video conferencing stay online and accessible
+ at http://localhost:7000 and
+ on your mobile device at http://192.168.1.7:7000.
+
+Would you like to stop or keep the server running?
+To keep using the application: Leave it running in the background.
+To stop the server: Just say "Stop the server" or "Kill the background task", and I will shut it down for you immediately.
+
+
+cd E:\Project\carryo_chat
+python run.py

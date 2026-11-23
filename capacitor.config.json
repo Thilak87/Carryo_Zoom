@@ -1,0 +1,22 @@
+{
+  "appId": "com.carryo.zoomchat",
+  "appName": "Carryo Zoom",
+  "webDir": "static",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "http://192.168.1.7:7000",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#121418",
+      "showSpinner": false
+    }
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}

@@ -1,6 +1,9 @@
 import os
 import sys
 
+# Ensure current directory is in Python path for cloud imports
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 # Ensure utf-8 encoding on Windows console
 if sys.stdout.encoding != 'utf-8':
     try:
